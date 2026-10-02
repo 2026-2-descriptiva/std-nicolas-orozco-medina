@@ -1,11 +1,2 @@
-kpi,value
-orders,1000.0
-customers,428.0
-products,371.0
-units,3069.0
-gross_sales,1280745.55
-net_sales,637042.53
-returned_sales,643703.02
-avg_order_value,1280.7456
-avg_units_per_order,3.069
-return_rate,0.516
+orders,customers,gross_sales,returned_amount,net_sales,return_rate_by_orders,return_rate_by_value,net_sales_per_order
+1000,428,1280745.55,643703.02,637042.53,0.516,0.5026002393683897,637.04253
