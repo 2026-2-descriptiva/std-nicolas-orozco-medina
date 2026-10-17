@@ -1,3 +1,4 @@
+import pandas as pd
 def pregunta_02():
     """
     ¿Cuántas columnas tiene la tabla `data/tbl0.tsv`? Retorne la cantidad
@@ -7,5 +8,7 @@ def pregunta_02():
 
         4
     """
+    df = pd.read_csv("data/tbl0.tsv", sep="\t")
+    return len(df.columns)
 
     raise NotImplementedError
